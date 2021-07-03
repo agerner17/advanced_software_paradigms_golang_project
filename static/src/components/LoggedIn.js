@@ -85,14 +85,18 @@ const LoggedIn = () => {
             className="btn btn-primary float-right"
             onClick={() => logout()}
           >
-            Log out
+            LOG OUT
           </span>
         )}
-        <h1>We R VR</h1>
+        <spacer type="horizontal" width="100" height="100"></spacer>
+        <h1>Go Language Evaluation</h1>
+        <hr></hr>
+        <h2>Austin Gerner and Raymond Hear</h2>
+        <h3>Advanced Software Paradigms (CSCI 6221)</h3>
+        <spacer type="horizontal" width="100" height="100"> </spacer>
+        <br></br>
         <p>
-          Hi, {user.name}! Below you'll find the latest games that need
-          feedback. Please provide honest feedback so developers can make the
-          best games.
+          Hi, {user.name}! This is a mock application to test Go's potential use in production.
         </p>
         <div className="row">
           {products.map(function (product, index) {

@@ -7,10 +7,10 @@ const Home = () => {
     <Fragment>
       <div className="container">
         <div className="jumbotron text-center mt-5">
-          <h1>We R VR</h1>
-          <p>Provide valuable feedback to VR experience developers.</p>
+          <h1>Go Language Evaluation</h1>
+          <p>Sign in to test authentication.</p>
           {!isAuthenticated && (
-            <button className="btn btn-primary btn-lg btn-login btn-block" onClick={() => loginWithRedirect({})}>Sign in</button>
+            <button className="btn btn-primary btn-lg btn-login btn-block" onClick={() => loginWithRedirect({})}>SIGN IN</button>
           )}
         </div>
       </div>
