@@ -4,4 +4,5 @@
 go run . &
 
 # Start React
-cd ./static && npm start &
+cd ./static && npm start
+

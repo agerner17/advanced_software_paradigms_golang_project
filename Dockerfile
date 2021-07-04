@@ -17,5 +17,5 @@ RUN node --version
 RUN npm --version
 
 RUN chmod +x ./runner_script.sh
-RUN ./runner_script.sh
 EXPOSE 8080 3000
+ENTRYPOINT ./runner_script.sh
