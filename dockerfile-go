@@ -1,0 +1,13 @@
+# Use Go 1.14 as is in go.mod
+FROM golang:1.14-alpine as base
+
+WORKDIR /api
+COPY go.* ./
+RUN go mod download
+COPY . .
+
+RUN go build -o main .
+
+EXPOSE 8080
+
+CMD ["./main"]
