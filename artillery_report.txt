@@ -1,0 +1,605 @@
+/* 10 VIRTUAL USERS, 20 REQUESTS EACH */
+Started phase 0, duration: 1s @ 20:29:01(-0400) 2021-07-06
+Report @ 20:29:02(-0400) 2021-07-06
+Elapsed time: 1 second
+  Scenarios launched:  10
+  Scenarios completed: 10
+  Requests completed:  200
+  Mean response/sec: 141.84
+  Response time (msec):
+    min: 0
+    max: 13
+    median: 2
+    p95: 5.5
+    p99: 9
+  Codes:
+    200: 200
+
+/* 100,000 USERS, 200 REQUESTS EACH */
+Started phase 0, duration: 2000s @ 20:32:08(-0400) 2021-07-06
+Report @ 20:32:18(-0400) 2021-07-06
+Elapsed time: 10 seconds
+  Scenarios launched:  499
+  Scenarios completed: 11
+  Requests completed:  32749
+  Mean response/sec: 3307.16
+  Response time (msec):
+    min: 1
+    max: 305
+    median: 49
+    p95: 139
+    p99: 183
+  Codes:
+    200: 32749
+
+Warning: 
+CPU usage of Artillery seems to be very high (pids: 27532)
+which may severely affect its performance.
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:32:28(-0400) 2021-07-06
+Elapsed time: 20 seconds
+  Scenarios launched:  500
+  Scenarios completed: 64
+  Requests completed:  40241
+  Mean response/sec: 4096.37
+  Response time (msec):
+    min: 13
+    max: 495
+    median: 107
+    p95: 253
+    p99: 353.2
+  Codes:
+    200: 40241
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:32:38(-0400) 2021-07-06
+Elapsed time: 30 seconds
+  Scenarios launched:  500
+  Scenarios completed: 66
+  Requests completed:  41315
+  Mean response/sec: 4229.89
+  Response time (msec):
+    min: 26
+    max: 854
+    median: 171
+    p95: 379
+    p99: 488
+  Codes:
+    200: 41315
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:32:48(-0400) 2021-07-06
+Elapsed time: 40 seconds
+  Scenarios launched:  71
+  Scenarios completed: 90
+  Requests completed:  46816
+  Mean response/sec: 4614.89
+  Response time (msec):
+    min: 20
+    max: 884
+    median: 188
+    p95: 372
+    p99: 457
+  Codes:
+    200: 46816
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:32:58(-0400) 2021-07-06
+Elapsed time: 50 seconds
+  Scenarios launched:  148
+  Scenarios completed: 135
+  Requests completed:  44091
+  Mean response/sec: 4482.11
+  Response time (msec):
+    min: 22
+    max: 695
+    median: 188
+    p95: 373
+    p99: 443
+  Codes:
+    200: 44091
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:33:08(-0400) 2021-07-06
+Elapsed time: 1 minute, 0 seconds
+  Scenarios launched:  510
+  Scenarios completed: 122
+  Requests completed:  39398
+  Mean response/sec: 4035.09
+  Response time (msec):
+    min: 51
+    max: 1507
+    median: 275
+    p95: 603
+    p99: 833
+  Codes:
+    200: 39398
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:33:18(-0400) 2021-07-06
+Elapsed time: 1 minute, 10 seconds
+  Scenarios launched:  325
+  Scenarios completed: 59
+  Requests completed:  44962
+  Mean response/sec: 4536.41
+  Response time (msec):
+    min: 47
+    max: 1620
+    median: 275
+    p95: 545
+    p99: 784
+  Codes:
+    200: 44962
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:33:29(-0400) 2021-07-06
+Elapsed time: 1 minute, 21 seconds
+  Scenarios launched:  28
+  Scenarios completed: 142
+  Requests completed:  40162
+  Mean response/sec: 3880.62
+  Response time (msec):
+    min: 63
+    max: 837
+    median: 298
+    p95: 521
+    p99: 680
+  Codes:
+    200: 40162
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:33:39(-0400) 2021-07-06
+Elapsed time: 1 minute, 31 seconds
+  Scenarios launched:  29
+  Scenarios completed: 298
+  Requests completed:  37857
+  Mean response/sec: 3743.82
+  Response time (msec):
+    min: 69
+    max: 666
+    median: 267
+    p95: 489
+    p99: 541
+  Codes:
+    200: 37857
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:33:49(-0400) 2021-07-06
+Elapsed time: 1 minute, 41 seconds
+  Scenarios launched:  125
+  Scenarios completed: 245
+  Requests completed:  40643
+  Mean response/sec: 4020.14
+  Response time (msec):
+    min: 31
+    max: 1202
+    median: 269
+    p95: 534
+    p99: 703
+  Codes:
+    200: 40643
+
+Report @ 20:33:59(-0400) 2021-07-06
+Elapsed time: 1 minute, 51 seconds
+  Scenarios launched:  62
+  Scenarios completed: 306
+  Requests completed:  45941
+  Mean response/sec: 4569.7
+  Response time (msec):
+    min: 20
+    max: 849
+    median: 194
+    p95: 355
+    p99: 407.1
+  Codes:
+    200: 45941
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:34:09(-0400) 2021-07-06
+Elapsed time: 2 minutes, 1 second
+  Scenarios launched:  165
+  Scenarios completed: 76
+  Requests completed:  45669
+  Mean response/sec: 4612.7
+  Response time (msec):
+    min: 19
+    max: 884
+    median: 192
+    p95: 380
+    p99: 456
+  Codes:
+    200: 45669
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:34:20(-0400) 2021-07-06
+Elapsed time: 2 minutes, 11 seconds
+  Scenarios launched:  280
+  Scenarios completed: 541
+  Requests completed:  44625
+  Mean response/sec: 4476.69
+  Response time (msec):
+    min: 23
+    max: 1352
+    median: 217
+    p95: 410
+    p99: 563
+  Codes:
+    200: 44625
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:34:30(-0400) 2021-07-06
+Elapsed time: 2 minutes, 21 seconds
+  Scenarios launched:  755
+  Scenarios completed: 379
+  Requests completed:  43515
+  Mean response/sec: 4415.59
+  Response time (msec):
+    min: 38
+    max: 1070
+    median: 218
+    p95: 471
+    p99: 687
+  Codes:
+    200: 43515
+
+Report @ 20:34:40(-0400) 2021-07-06
+Elapsed time: 2 minutes, 31 seconds
+  Scenarios launched:  465
+  Scenarios completed: 60
+  Requests completed:  45308
+  Mean response/sec: 4626.82
+  Response time (msec):
+    min: 24
+    max: 1757
+    median: 228
+    p95: 444
+    p99: 747
+  Codes:
+    200: 45308
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:34:50(-0400) 2021-07-06
+Elapsed time: 2 minutes, 41 seconds
+  Scenarios launched:  282
+  Scenarios completed: 120
+  Requests completed:  45920
+  Mean response/sec: 4612.81
+  Response time (msec):
+    min: 28
+    max: 1194
+    median: 255
+    p95: 531
+    p99: 709
+  Codes:
+    200: 45920
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:35:00(-0400) 2021-07-06
+Elapsed time: 2 minutes, 52 seconds
+  Scenarios launched:  416
+  Scenarios completed: 40
+  Requests completed:  45635
+  Mean response/sec: 4564.58
+  Response time (msec):
+    min: 52
+    max: 1602
+    median: 290
+    p95: 576
+    p99: 830
+  Codes:
+    200: 45635
+
+Report @ 20:35:10(-0400) 2021-07-06
+Elapsed time: 3 minutes, 2 seconds
+  Scenarios launched:  261
+  Scenarios completed: 35
+  Requests completed:  42736
+  Mean response/sec: 4357.2
+  Response time (msec):
+    min: 83
+    max: 1767
+    median: 370
+    p95: 770
+    p99: 878
+  Codes:
+    200: 42736
+  Errors:
+    ECONNRESET: 1
+
+Report @ 20:35:20(-0400) 2021-07-06
+Elapsed time: 3 minutes, 12 seconds
+  Scenarios launched:  35
+  Scenarios completed: 94
+  Requests completed:  44462
+  Mean response/sec: 4476.11
+  Response time (msec):
+    min: 53
+    max: 984
+    median: 351
+    p95: 657
+    p99: 916
+  Codes:
+    200: 44462
+  Errors:
+    ETIMEDOUT: 197
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:35:30(-0400) 2021-07-06
+Elapsed time: 3 minutes, 22 seconds
+  Scenarios launched:  31
+  Scenarios completed: 72
+  Requests completed:  45685
+  Mean response/sec: 4523.69
+  Response time (msec):
+    min: 79
+    max: 661
+    median: 301
+    p95: 537
+    p99: 590.7
+  Codes:
+    200: 45685
+  Errors:
+    ETIMEDOUT: 35
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:35:41(-0400) 2021-07-06
+Elapsed time: 3 minutes, 32 seconds
+  Scenarios launched:  31
+  Scenarios completed: 196
+  Requests completed:  43897
+  Mean response/sec: 4404.03
+  Response time (msec):
+    min: 59
+    max: 664
+    median: 298
+    p95: 499
+    p99: 604.5
+  Codes:
+    200: 43897
+  Errors:
+    ETIMEDOUT: 31
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:35:51(-0400) 2021-07-06
+Elapsed time: 3 minutes, 43 seconds
+  Scenarios launched:  101
+  Scenarios completed: 403
+  Requests completed:  45102
+  Mean response/sec: 4471.06
+  Response time (msec):
+    min: 36
+    max: 708
+    median: 255
+    p95: 517
+    p99: 672
+  Codes:
+    200: 45102
+  Errors:
+    ETIMEDOUT: 31
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:36:01(-0400) 2021-07-06
+Elapsed time: 3 minutes, 53 seconds
+  Scenarios launched:  146
+  Scenarios completed: 456
+  Requests completed:  41411
+  Mean response/sec: 4130.75
+  Response time (msec):
+    min: 21
+    max: 694
+    median: 229
+    p95: 432
+    p99: 534
+  Codes:
+    200: 41411
+  Errors:
+    ETIMEDOUT: 101
+
+Report @ 20:36:11(-0400) 2021-07-06
+Elapsed time: 4 minutes, 3 seconds
+  Scenarios launched:  459
+  Scenarios completed: 495
+  Requests completed:  43042
+  Mean response/sec: 4326.56
+  Response time (msec):
+    min: 11
+    max: 722
+    median: 159
+    p95: 409
+    p99: 525.1
+  Codes:
+    200: 43042
+  Errors:
+    ETIMEDOUT: 146
+
+Warning: High CPU usage warning (pids: 27532).
+See https://artillery.io/docs/faq/#high-cpu-warnings for details.
+
+Report @ 20:36:21(-0400) 2021-07-06
+Elapsed time: 4 minutes, 13 seconds
+  Scenarios launched:  6422
+  Scenarios completed: 716
+  Requests completed:  13018
+  Mean response/sec: 1899.19
+  Response time (msec):
+    min: 1
+    max: 296
+    median: 80
+    p95: 164
+    p99: 203
+  Codes:
+    200: 13018
+  Errors:
+    ETIMEDOUT: 459
+
+Report @ 20:36:31(-0400) 2021-07-06
+Elapsed time: 4 minutes, 23 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50.2
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 6424
+
+Report @ 20:36:41(-0400) 2021-07-06
+Elapsed time: 4 minutes, 33 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 20:36:51(-0400) 2021-07-06
+Elapsed time: 4 minutes, 43 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50.05
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 20:37:01(-0400) 2021-07-06
+Elapsed time: 4 minutes, 53 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50.05
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 20:37:11(-0400) 2021-07-06
+Elapsed time: 5 minutes, 3 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50.05
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 20:37:21(-0400) 2021-07-06
+Elapsed time: 5 minutes, 13 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50.05
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 20:37:31(-0400) 2021-07-06
+Elapsed time: 5 minutes, 23 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50.05
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 20:37:41(-0400) 2021-07-06
+Elapsed time: 5 minutes, 33 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50.05
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+Report @ 20:37:51(-0400) 2021-07-06
+Elapsed time: 5 minutes, 43 seconds
+  Scenarios launched:  500
+  Scenarios completed: 0
+  Requests completed:  0
+  Mean response/sec: 50.05
+  Response time (msec):
+    min: NaN
+    max: NaN
+    median: NaN
+    p95: NaN
+    p99: NaN
+  Errors:
+    ETIMEDOUT: 500
+
+... ^C%  
