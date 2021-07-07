@@ -1,20 +1,18 @@
-# Authentication in Golang with JWTs
+# Ray Hear & Austin Gerner Advanced Software Paradigm Final Project - Golang
 
-![Auth0 Go React](https://cdn.auth0.com/blog/go-auth/go-react-app-final.png)
+![Auth0 Go React](./golang-react-auth-artillery-docker-demo-landing-page.png)
 
-This application will show you how to build and secure a mock voting application. You'll create an API with Go and a frontend with React that will consume your API. You'll secure your API using Auth0 so that only authenticated users can access and vote on products.
-
-**🚀 Read the full tutorial here**:
-
-[Authentication in Golang with JWTs](https://auth0.com/blog/authentication-in-golang)
+Our application will show you how to build and secure a mock voting application. You'll create an API with Go and a frontend with React that will consume your API. You'll secure your API using Auth0 so that only authenticated users can access and vote on products.  Also, be able to build your API and frontend using your local but also create a container in Docker.  Then be able to test the load performance of the API using Artillery.
 
 ## Technology
 
-This demo uses:
+Our demo uses:
 
 - [Go v1.14](https://golang.org/)
 - [React v16.13](https://reactjs.org/)
 - [Auth0](https://auth0.com/)
+- [Artillery](https://artillery.io/)
+- [Docker](https://www.docker.com/)
 
 Make sure you have [Go installed](https://golang.org/doc/install) before running the demo.
 
@@ -22,13 +20,13 @@ Make sure you have [Go installed](https://golang.org/doc/install) before running
 
 **Clone and get dependencies**
 
-* Clone the repo with `git clone https://github.com/auth0-blog/go-react-vr-auth`
-* Switch to the directory that holds the repo `cd go-react-vr-auth`
+* Clone the repo with `git clone https://github.com/agerner17/advanced_software_paradigms_golang_project`
+* Switch to the directory that holds the repo `cd golang-react-auth-artillery-docker-demo`
 * Run `go get` to grab the dependencies
 
 **Auth0 Setup**
 
-If you do not have an Auth0 account, [sign up](https://auth0.com/signup) for one now.
+Next step is to create an Auth0 account at, [sign up](https://auth0.com/signup) for one now.
 
 * Navigate to the Auth0 [management dashboard](https://manage.auth0.com/) and click on **Create Application**. Name your application anything you'd like, select "Single Page Web Applications", and click **Create**.
 * Click on **Settings** and fill in **Allowed Callback URLs**, **Allowed Logout URLs**, and **Allowed Web Origins** with `http://localhost:3000` and then press **Save changes**.
@@ -68,7 +66,7 @@ Your **Identifier** is listed on the Settings tab of the API you just created in
 
 **Run React**
 
-* Open a new terminal tab and switch to the React directory and then pull in the required dependencies
+* To start the React front end create a new terminal tab and switch to the React directory and then pull in the required dependencies
 
 ```bash
 cd static
@@ -94,5 +92,5 @@ go get
 ```bash
 go run .
 ```
-
-💥 Navigate to [`http://localhost:3000`](http://localhost:3000) to see it in action! 💥
+ 
+ Now you should be able to see your API on [`http://localhost:3000`](http://localhost:3000)
